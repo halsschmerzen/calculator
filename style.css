@@ -10,10 +10,11 @@
 
     margin: auto;
     margin-top: 10%;
-    width: 50%;
+    width: 80%;
+    max-width: 400px;
     border: 3px solid black;
     border-radius: 16px;
-    padding: 64px;
+    padding: 32px;
     background-color: rgb(248, 228, 244);
     font-weight: 700;
 }
@@ -25,12 +26,13 @@
 }
 
 #buttonfield button {
-    padding: 24px;
+    padding: 16px;
     margin: 2px;
     border: 2px solid rgb(255, 226, 226);
     border-radius: 8px;
     background-color: rgb(216, 191, 216);
     cursor: pointer;
+    font-size: 18px;
 
 }
 
@@ -40,7 +42,7 @@
 
 #textfield {
     border: 2px solid rgb(245, 230, 230);
-    padding:16px;
+    padding:12px;
 }
 
 .application {

@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    border: 3px solid black;
+    padding: 64px;
+}
+
+#buttonfield {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#buttonfield button {
+    padding: 24px;
+}
+
+#textfield {
+    border: 2px solid black;
+    padding:16px;
+}

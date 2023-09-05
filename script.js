@@ -42,6 +42,7 @@ function buttonParser() {
         value1 += button.textContent;
         value1 = parseFloat(value1);
         setDisplay(value1);
+        
       } else if (isNaN(button.textContent) && button.textContent != ".") {
         if (button.textContent != "=" && button.textContent != "C") {
           currentOperator = button.textContent;

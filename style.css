@@ -17,12 +17,14 @@
     padding: 32px;
     background-color: rgb(248, 228, 244);
     font-weight: 700;
+    overflow-x: auto;
 }
 
 #buttonfield {
     margin-top: 1rem;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Adjust button width and responsiveness */
+    overflow-x: auto;
 }
 
 #buttonfield button {

@@ -58,9 +58,17 @@ function buttonParser() {
         setDisplay(value2);
       }
       if (currentOperator != "" && button.textContent == "=") {
-        setDisplay(operate(currentOperator, value1, value2));
-        value1 = operate(currentOperator, value1, value2);
-        value2 = "";
+        let passValues = operate(currentOperator, value1, value2);
+        if(passValues < Number.MAX_VALUE) {
+            setDisplay(passValues);
+            value1 = operate(currentOperator, value1, value2);
+            value2 = "";
+        } else {
+            setDisplay("Out of bounds!");
+            value1 = "";
+            value2 = "";
+        }
+
       }
     });
   });

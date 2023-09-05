@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: monospace;
+    background-color: rgb(252, 242, 242);
 }
 
 .main {
